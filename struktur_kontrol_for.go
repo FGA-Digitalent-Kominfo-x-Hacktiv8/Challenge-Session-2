@@ -14,9 +14,9 @@ func main() {
 			for idx, val := range "САШАРВО" {
 				fmt.Printf("Character %U '%c' starts at byte position %d \n", val, val, idx)
 			}
-			continue
+		} else {
+			fmt.Println("Nilai j = ", j)
 		}
-		fmt.Println("Nilai j = ", j)
 	}
 
 	// for j := 6; j <= 10; j++ {
